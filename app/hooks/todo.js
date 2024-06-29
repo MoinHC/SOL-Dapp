@@ -9,6 +9,7 @@ import { findProgramAddressSync } from '@project-serum/anchor/dist/cjs/utils/pub
 import { useAnchorWallet, useConnection, useWallet } from '@solana/wallet-adapter-react'
 import { authorFilter } from '../utils'
 
+
 // Static data that reflects the todo struct of the solana program
 let dummyTodos = [
     {
